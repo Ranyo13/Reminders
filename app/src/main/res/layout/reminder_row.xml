@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/dark_grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/row_tab"
+            class="android.view.View"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/row_text"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            android:text="ReminderText"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#333" />
+</LinearLayout>
